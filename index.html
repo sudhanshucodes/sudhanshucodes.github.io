@@ -1,16 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudhanshu</title>
+    <title>Personal PortFolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="icon" href="images/android-chrome-512x512.png" />
+
 </head>
+
 <body>
-    Hello, welcome to my github page.
-    Look at my projects:
-    <ul>
-        <li>Calculator: <a href="/calculator/index.html">Here</a></li>
-    </ul>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">PortFo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Sudhanshu Singh</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="https://www.linkedin.com/in/sudhanshucodes/" target="_blank">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/SudhanshuSingh.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Sudhanshu and I'm a <span class="typing-2"></span></div>
+                    <p>An enthusiastic fresher with highly motivated and leadership skills having bachelors of
+                        technology degree from Delhi Technical University and passed with first division. Expert in
+                        implementation of each step of project. Eager to learn new technologies and methodologies.
+                        Proficient in HTML, CSS, Bootstrap, JavaScript, Jquery, React.js, Node.js. Always willing to
+                        innovate the new things which can improve the existing technology. Ability to translate business
+                        requirements into innovative software solutions. Looking to start a career as an entry-level
+                        professional with a reputed IT company.</p>
+                    <a href="https://drive.google.com/file/d/1E28RxtV28yauGcAxH-YShScT8wIDC9oI/view?usp=sharing"
+                        target="_blank">View Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-hourglass"></i>
+                        <div class="text">FullStack Development</div>
+                        <p>Full stack development: It refers to the development of both front end(client side) and back
+                            end(server side) portions of web application.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-hourglass-start"></i>
+                        <div class="text">FrontEnd Development</div>
+                        <p>Front-end web development, also known as client-side development is the practice of producing
+                            HTML, CSS and JavaScript for a website or Web Application so that a user can see and
+                            interact with them directly.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-hourglass-end"></i>
+                        <div class="text">BackEnd Development</div>
+                        <p>A backend developer is one who makes use of the technology required to develop the products
+                            for the backend of any website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>I am a self-motivated learner. My interest
+                        lies in the application and development of
+                        web applications, both backend and
+                        frontend I have an appreciable amount of
+                        knowledge and experience in both.</p>
+                    <a href="https://github.com/sudhanshucodes" target="_blank">Git</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>NodeJs</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line nodejs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>ReactJs</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line reactjs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Django</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line django"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/calculator.png" alt="">
+                        <div class="text"><a href="/calculator/index.html"
+                                target="_blank">Basic Calculator</a></div>
+                        <p>Basic Calculator which is created using HTML, CSS and javascript</p>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="box">
+                        <img src="images/dragon.gif" alt="">
+                        <div class="text"> <a href="/Portfolio/JavaScript Dragon Game/index.html" target="_blank">Dragon
+                                Game</a>
+                        </div>
+                        <p>“Dragon’s World” is a game in which one dragon tries to save itself from the other dragon by
+                            jumping over the dragon which comes in its way. The score is updated when one dragon saves
+                            himself from the other dragon. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/tictactoe.gif" alt="">
+                        <div class="text"><a href="/Portfolio/TicTacToe/index.html" target="_blank">Tic Tac Toe</a>
+                        </div>
+                        <p>It is quite easy to develop with some simple validations and error checks. Player-1 starts
+                            playing the game and both the players make their moves in consecutive turns. The player who
+                            makes a straight 3-block chain wins the game. This game is built on the front-end using
+                            simple logic and validation checks only. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/snake-game.gif" alt="">
+                        <div class="text"><a href="/Portfolio/SnakeGame/index.html" target="_blank">Snake Game</a>
+                        </div>
+                        <p>A snake game is a simple game where a snake moves around a box trying to eat an apple. Once
+                            it successfully eats the apple, the length of the snake increases and the movement becomes
+                            faster.Then the game is over when the snake runs into itself or any of the four walls of the
+                            box.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/drum kit.gif" alt="">
+                        <div class="text">
+                            <a href="/Portfolio/Drum Kit-html css javascript/index.html" target="_blank">Drum Kit</a>
+                        </div>
+                        <p>The point of this project is to have each key, when pressed, make a corresponding drum noise.
+                            It also uses CSS transitions and animations to make the project more interactive to the
+                            user. I completed this project earlier in my JavaScript learning phase. I found it quite
+                            confusing because I had never used the HTML audio API or the selection of DOM elements using
+                            the date-key attribute.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/mycoder.gif" alt="">
+                        <div class="text"><a href="/Portfolio/Mycoder Website/index.html" target="_blank">My Coder
+                                Website</a>
+                        </div>
+                        <p>Developed MyCoder website with HTML, CSS & Javascript. HTML provides the basic structure of
+                            sites, which is enhanced and modified by other
+                            technologies like CSS and JavaScript. CSS is used to control presentation, formatting, and
+                            layout. JavaScript is used to control the behavior of different elements.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/car.gif" alt="">
+                        <div class="text"><a href="/Portfolio/Car Aminated/index.html" target="_blank">Car Animation</a>
+                        </div>
+                        <p>Implementing a car running on a track using HTML and CSS with sound effects. The
+                            prerequisites
+                            of this project are HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/clock.gif" alt="">
+                        <div class="text"><a href="/Portfolio/Clock Using HTML, CSS & JS/index.html"
+                                target="_blank">Analog
+                                Clock</a> </div>
+                        <p>An analog clock is a tool for reading the time of day. The shortest hand indicates the hour,
+                            a longer hand indicates the minutes, and the longest arm indicates the seconds. Some analog
+                            clocks have only two hands: the shorter hand indicating the hour and the longer hand
+                            indicating the minutes.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/blog.gif" alt="">
+                        <div class="text"><a href="/Portfolio/ResponsiveBlogTemplate/index.html" target="_blank">Blog
+                                Website</a>
+                        </div>
+                        <p>Blogging refers to writing, photography, and other media that's self-published online.
+                            Blogging started as an opportunity for individuals to write diary-style entries, but it has
+                            since been incorporated into websites for many businesses.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/music.gif" alt="">
+                        <div class="text"><a href="/Portfolio/Music player/index.html" target="_blank">Music Player</a>
+                        </div>
+                        <p>As streaming is increasingly being adopted by users, online media players have become
+                            essential for consuming media on the internet. Music players allow one to enjoy music in any
+                            browser and supports a lot of the features of an offline music player.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/transparent.gif" alt="">
+                        <div class="text"><a href="/Portfolio/Transparent Login- html & css/index.html"
+                                target="_blank">Transparent Login</a></div>
+                        <p>Transparent Login Form which is created using HTML CSS & JavaScript. Javascript is only used
+                            to toggle show or hide passwords. In this login form, there is an image, a form, some texts,
+                            and some social media icons. You can change this form according to your requirements if you
+                            have basic knowledge of html and css.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or
+                        opportunities to be part of your visions.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Sudhanshu Singh</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Location</div>
+                                <div class="sub-title">New Delhi</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone-square"></i>
+                            <div class="info">
+                                <div class="head">Contact No.</div>
+                                <div class="sub-title">+91-9648810699</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">sudhanshusinghmp50@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/sudhanshucodes/" target="_blank">Sudhanshu
+                Singh</a> | <span class="far fa-copyright"></span> 2021 All rights
+            reserved @ Web Development Programmer.</span>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
